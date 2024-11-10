@@ -1,0 +1,49 @@
+    *  {
+        background-color: white;
+    }
+
+
+
+body {
+    background-color: red;
+}
+
+.centerTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.centerMessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.centerList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .centerList li {
+    margin: 10px 0; /* Add some spacing between list items */
+    padding: 10px; /* Add padding inside the box */
+    border: 2px solid black; /* Add a border around each item */
+    display: inline-block; /* Ensure the border wraps around the content */
+  }
+  
+  
+.centerItens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
